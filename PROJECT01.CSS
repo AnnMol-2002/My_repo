@@ -1,0 +1,126 @@
+.HEADING {
+    background-color: rgb(218, 177, 209);
+    padding: 3px;
+    border: none;
+}
+.inner-heading{
+    background-color: rgb(218, 177, 209);
+    width:1000px;
+    display: block;
+    margin: 0 auto;
+}
+.inner-heading h1{
+    color: red;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+
+}
+.inner-heading p{
+    color: black;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+ul{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+ul li:last-child{
+    border-right: none;
+}
+.nav-area{
+    text-decoration: none;
+    display: block;
+}
+.btn{
+    background-color: rgb(240, 128, 225);
+    border: none;
+    color: rgb(40, 136, 136);
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+.btn:hover{
+    background-color: rgb(70, 136, 173);
+    color: rgb(236, 124, 231);
+}
+
+
+* {
+   box-sizing: border-box;
+}
+
+
+.col{
+    position:relative;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.col img{
+    opacity: 0.8;
+    cursor: pointer;
+    width:300px;
+    height: 300px;
+}
+.col img:hover{
+    opacity: 1;
+}
+.desc1{
+    position: absolute;
+    padding: 10px 120px;
+    bottom: 3%;
+    left:20%;
+    widows: 100%;
+    text-align: center;
+    background-color: rgba(12, 13, 14, 0.562);
+}
+.desc2{
+    position: absolute;
+    padding: 10px  87px;
+    bottom: 3%;
+    left:20.3%;
+    widows: 100%;
+    text-align: center;
+    background-color: rgba(12, 13, 14, 0.562);
+}
+.desc3{
+    position: absolute;
+    padding: 10px 129px;
+    bottom: 3%;
+    left:21%;
+    widows: 100%;
+    text-align: center;
+    background-color: rgba(12, 13, 14, 0.562);
+}
+.row{
+    text-align: center;
+}
+
+.row:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.hen{
+    padding: 10px;
+    margin-left: auto;
+  text-align: center;
+}
+
+
+
+
+
